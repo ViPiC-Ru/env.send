@@ -1,0 +1,13 @@
+{
+    "name": "env.send",
+    "version": "1.0.0",
+    "description": "Отправляет переменные среды",
+    "main": "env.send.js",
+    "author": "ViPiC",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "app": "git+file://storage/script/app#semver:0.3.x",
+        "app.lib": "git+file://storage/script/app.lib#semver:0.x",
+        "app.wsh": "git+file://storage/script/app.wsh#semver:0.x"
+    }
+}
